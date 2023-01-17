@@ -1,0 +1,127 @@
+/* ========== Google Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+/* ========== Base document ========== */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10rem 25rem;
+    background-color: #FAFAF7;
+}
+
+.container {
+    min-height: calc(80vh - 70px * 2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+.login-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+    padding-left: 100px;
+    background-color: #fff;
+}
+
+.login-left {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-image {
+    width: 100%;
+}
+
+.login-header {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.login-header h1 {
+    font-size: 2.5rem;
+}
+
+.login-header p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.login-form {
+    padding-top: 2rem;
+    letter-spacing: 1px;
+    justify-self: center;
+}
+
+.login-form-content {
+    border-radius: .5rem;
+    padding: 3rem 1 rem .25rem;
+}
+
+.form-item {
+    padding-top: 1rem;
+}
+
+.email,
+.password {
+    width: 90%;
+    outline: none;
+    padding: .5rem 0;
+    color: #000;
+    position: relative;
+    background: transparent;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.textarea {
+    border: 0;
+    border-bottom: 3px solid #682BD7;
+    line-height: .5rem;
+    background: transparent;
+    color: #4e4e4e;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.checkbox a {
+    margin-left: 6.5rem;
+    text-decoration: none;
+    color: #682BD7;
+}
+
+.checkbox input, label {
+    cursor: pointer;
+}
+
+.login-form-content button {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, rgba(68,30,139,1) 0%, rgba(104,43,215,1) 65%);
+}
+
+.login-form-footer {
+    margin-top: 2.5rem;
+}
+
+.login-form-footer a {
+    text-decoration: none;
+    color: #682BD7;
+}
